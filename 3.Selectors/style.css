@@ -1,0 +1,29 @@
+.center {
+    text-align: center;
+    color: red;
+  }
+
+ #yes{
+    color: aqua;
+ } 
+
+* {
+    background-color: rgb(171, 171, 187);
+  }
+
+h2{
+    font-family: Arial;
+  }
+
+h3, h4{
+    color: hotpink
+    ;
+}  
+
+h5{
+    font-weight: 500;
+}
+  
+p.large {
+    font-size: 300%;
+  }
