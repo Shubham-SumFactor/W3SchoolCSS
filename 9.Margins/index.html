@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+
+            h2.hello{
+                border: 20px dotted red;
+                margin: 25px 50px 75px 100px /*shorthand tRbL*/;
+            }
+
+        div {
+          border: 1px solid red;
+          margin-left: 100px;
+        }
+
+        p.ex1 {
+          margin-left: inherit /*inheritance*/;
+        }
+
+        h3{
+            margin: 0 0 50px 0;
+        }
+
+        h4{
+            margin: 20px 0 0 0 /*margin collapse ends up in 50px*/;
+        }
+
+        </style>
+         </head>
+        <body>
+        
+            <h2 class="hello">Use of the inherit value</h2>
+            <p>Let the left margin be inherited from the parent element:</p>
+            <h1>Hello H1</h1>
+        <div>
+            <p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+        </div>
+
+        <h3> hello World</h3>
+        <h4> hello Real World</h4>
+
+
+</body>
+</html>
