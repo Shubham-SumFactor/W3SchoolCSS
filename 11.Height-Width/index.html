@@ -1,0 +1,40 @@
+<!-- /*The height and width properties do not include padding, borders, or margins. It sets the height/width of the area inside the padding, border, and margin of the element.*/ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        h1{
+            border: solid;
+            height: 100px;
+            width: 100px;
+        }
+        p{
+            border: dotted;
+            max-width: 500px /* the value of the width property is larger than the max-width property; the max-width property will be used (and the width property will be ignored).*/;
+            width:1000px
+        }
+        body {
+      
+        background-color: lightblue;
+       /* background-image: url("./HP.webp") ;*/
+        background-repeat: no-repeat;
+        background-position: auto;
+        background-attachment: fixed;
+        /*background-attachment: scroll; the pic will scroll*/
+        /*Shorthand   background: #ffffff url("./HP.webp") no-repeat right top;
+  margin-right: 200px; all property in one*/
+        }
+    </style>
+</head>
+<body>
+
+<h1>Hello World!</h1>
+
+<p id="1">This page has a light blue background color!</p>
+
+
+
+</body>
+</html>
