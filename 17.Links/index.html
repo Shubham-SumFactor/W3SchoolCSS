@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <style>
+        /* unvisited link */
+                a:link {
+                  color: red;
+                }
+
+                /* visited link */
+                a:visited {
+                  color: green;
+                }
+
+                /* mouse over link */
+                a:hover {
+                  color: hotpink;
+                }
+
+                /* selected link */
+                a:active {
+                  color: blue;
+        }
+        </style>
+</head>
+<body>
+
+<h2>Styling a link depending on state</h2>
+
+<p><b><a href="http://fb.com" target="_blank">This is a fb link</a></b></p>
+<p><b>Note:</b> a:hover MUST come after a:link and a:visited in the CSS </p>
+<p><b>Note:</b> a:active MUST come after a:hover in the CSS </p>
+
+<p><b>Note:</b><a href="https://twitter.com" target="_blank">This is a Twitter link</a>a:hover MUST come after a:link and a:visited</p>
+<p><b>Note:</b><a href="https://instagram.com" target="_blank">This is a instagram link</a> a:active MUST come after a:hover</p>
+
+</body>
+</html>
+
+
