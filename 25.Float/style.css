@@ -1,0 +1,19 @@
+
+img {
+  float: right;
+}
+
+img.left {
+    float: left;
+  }
+
+img.none {
+    float: none;
+  }
+
+div {
+    float: left;
+    padding: 15px; 
+    border: solid;;
+
+  }  
