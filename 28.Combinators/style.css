@@ -5,3 +5,11 @@ div p {
 .div > p {
     background-color: aqua;
 }
+
+/* .div ~ p { */
+    /* background-color: yellow; */
+  /* }  genral sibling*/ 
+
+  /* div + p { */
+    /* background-color: yellow; */
+  /* } adjacent silbling*/
