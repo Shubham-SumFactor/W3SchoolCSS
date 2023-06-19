@@ -1,4 +1,5 @@
 .inline {
+    /* Default for span : inline */
     display: inline;
     width: 100px;
     height: 100px;
