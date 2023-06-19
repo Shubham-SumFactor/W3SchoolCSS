@@ -1,0 +1,39 @@
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+  div:hover{
+    color: aqua;
+  }
+
+  /* p{} */
+  .main2{ 
+    display: none;
+    background-color: greenyellow;
+    padding: 20px; 
+  }
+/* div{} */
+  .main:hover p {
+    display: block;
+    color: red
+  }
+
+  p:first-child {
+    color: blue;
+  } 
