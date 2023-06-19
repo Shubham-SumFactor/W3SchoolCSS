@@ -1,0 +1,7 @@
+div p {
+    background-color: yellowgreen;
+}
+
+.div > p {
+    background-color: aqua;
+}
