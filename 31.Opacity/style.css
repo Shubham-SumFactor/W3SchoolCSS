@@ -1,0 +1,39 @@
+img{
+    opacity: 50%;
+}
+
+img:hover{
+    opacity: 1.0;
+}
+
+div{
+    padding: 10px;
+    background-color: beige;
+}
+
+.first{
+    opacity: 0.1;
+    border: dashed;
+}
+
+.second{
+    opacity: 0.3;
+    border: solid;
+}
+
+.third{
+    opacity: 0.6;
+    border: solid;
+}
+
+div.background {
+    background: url(/HP.webp) repeat;
+    border: 2px solid black;
+  }
+
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+  } 
