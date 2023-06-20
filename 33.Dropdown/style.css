@@ -1,0 +1,16 @@
+.dropdown{
+    position: relative;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: red;
+    min-width: 160px;
+    z-index: 1;
+  }
