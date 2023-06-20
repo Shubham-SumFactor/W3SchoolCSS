@@ -1,0 +1,14 @@
+[class|="top"] {
+    background: yellow;
+  }
+
+[class^="topcontent"] {
+    background-color: red;
+}
+
+[class$="middlecontent"]{
+    background-color: aqua;
+}
+[class*="bottomcontent"] {
+    background: green;
+  }
