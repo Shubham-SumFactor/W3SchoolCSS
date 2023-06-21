@@ -1,0 +1,18 @@
+#main{
+    position: absolute;
+    left: 50px;
+    width: calc(100% - 100px);
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
+
+#main2{
+background-color: aqua;
+width: max(50%, 1000px);
+}
+
+#main3{
+    background-color: green;
+    width: min(50%, 1000px);
+    }
