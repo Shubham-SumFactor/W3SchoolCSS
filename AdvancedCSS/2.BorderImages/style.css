@@ -1,0 +1,15 @@
+#main{
+    border : 20px dashed red;
+    padding: 2px;
+    /* border-image: url(../../HP.webp) 40 round; */
+    border-image: url(./border.png) 40  round;
+
+}
+
+#main2{
+    border : 20px dashed red;
+    padding: 2px;
+    /* border-image: url(../../HP.webp) 40 round; */
+    border-image: url(./border.png) 30% stretch;
+
+}
