@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <h1>FORM</h1>
+    <form>
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="firstname">
+
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="lastname">
+        
+        <label for="search">Search</label>
+        <input type="text" name="search" placeholder="Search Here!..">
+
+        <div>
+            <label for="subject">Review</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+
+        <label for="occupation">Occupation</label>
+        <select id="occupation" name="occupation">
+            <option value="IT">Professional</option>
+            <option value="STU">Student</option>
+            <option value="others">others</option>
+   
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
