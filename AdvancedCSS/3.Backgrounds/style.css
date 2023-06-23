@@ -1,0 +1,17 @@
+#main {
+    background: url(./tree.png) left top no-repeat, url(./iconsearch.png)   bottom no-repeat, url(./next.gif) left top repeat;
+    padding: 15px;
+    background-size: 60px, 100px, auto;
+}
+
+
+body{
+ color: whitesmoke;
+
+}
+
+html{
+    background: url(../../HP.webp) no-repeat center fixed; 
+    background-size: cover;
+
+}
