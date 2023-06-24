@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RadialGradient</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1>background-image: conic-gradient([from angle] [at position,] color [degree], color [degree], ...);</h1>
+
+    <div id="grad">
+        <p>By default, angle is 0deg and position is center.</p>
+        <p> background-image: conic-gradient(red, yellow, green); </p>
+    </div>
+
+    <div id="gradFive">
+        <p>Radial Gradients (differently spaced color stops)</p>
+        <p>background-image: conic-gradient(red, yellow, green, blue, black);</p>
+    </div>
+
+    <div id="gradDegree">
+        <p>A conic gradient with three colors and a degree for each color:</p>
+        <p>background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);</p>
+    </div>
+
+    <div id="gradPie">
+        
+        <p>Just add border-radius: 50% to make the conic gradient look like a pie:</p>
+        <p> background-image: conic-gradient(red, yellow, green, blue, black);
+            border-radius: 50%;</p>
+    </div>
+
+   
+</body>
+</html>

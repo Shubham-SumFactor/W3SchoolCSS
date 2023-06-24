@@ -1,0 +1,24 @@
+#grad {
+    height: 200px;
+    width: 200px;
+    background-image: conic-gradient(red, yellow, green);
+  } 
+
+  #gradFive {
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    height: 200px;
+    width: 200px;  
+}
+
+
+#gradDegree{
+    height: 200px;
+    width: 200px;  
+    background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);}
+
+#gradPie {
+        background-image: conic-gradient(red, yellow, green, blue, black);
+        border-radius: 50%;
+     
+        height: 200px;
+    width: 200px;  }
