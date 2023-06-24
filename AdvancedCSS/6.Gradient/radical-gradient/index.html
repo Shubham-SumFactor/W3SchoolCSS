@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RadialGradient</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1>background-image: radial-gradient(shape size at position, start-color, ..., last-color);</h1>
+
+    <div id="gradEven">
+        <p>Radial (goes center to out)</p>
+        <p> </p>
+        <p>Radial Gradients (defined by their center) red to yellow to green outside</p>
+
+
+    </div>
+
+    <div id="gradDiff">
+        <p>Radial Gradients (differently spaced color stops)</p>
+        <p>  background-image: linear-gradient(to right, red 5%, yellow15%,green 50%); <b>center with less % and other color increasing</b></p>
+    </div>
+
+    <div id="gradShape">
+        <p> The shape parameter defines the shape. It can take the value circle or ellipse. The default value is ellipse.
+        </p>
+        <p>  background-image: radial-gradient(circle, red, yellow, green); 
+            </p>
+    </div>
+
+    <div id="farthest">
+        <p> side radial-gradient(farthest-side at 60% 55%, red, yellow, black);</p>
+        <p>  closest-side, 
+            farthest-side, 
+            closest-corner,
+            farthest-corner,
+</p>
+    </div>
+
+
+    <div id="closest">
+        <p> closest-side/p>
+        <p> background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);</p>
+    </div>
+
+    <div id="closest-corner">
+        <p>by default farthest-corner</p>
+        <p> background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);</p>r
+    </div>
+
+</body>
+</html>
