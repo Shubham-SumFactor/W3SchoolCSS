@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <h1>CSS gradients let you display smooth transitions between two or more specified colors.</h1>
+
+    <div id="gradTB">
+        <p>Linear Gradients (goes down/up/left/right/diagonally)</p>
+        <p>  background-image: linear-gradient(red, yellow); <b>top to down</b></p>
+        <p>Radial Gradients (defined by their center)</p>
+        <p>Conic Gradients (rotated around a center point)</p>
+
+    </div>
+
+    <div id="gradLR">
+        <p>Linear Gradients (goes left to right i.e. red to yellow)</p>
+        <p>  background-image: linear-gradient(to right, red, yellow); <b>left to right</b></p>
+    </div>
+
+    <div id="gradDiag">
+        <p> horizontal and vertical starting positions. (goes diagonal i.e. top left to bottom right)</p>
+        <p>  Multi color stops:linear-gradient(to bottom right, red, yellow, green); <b>top left to bottom right</b></p>
+    </div>
+
+    <div id="gradRain">
+        <p> horizontal and vertical starting positions. multiple colors</p>
+        <p>  Multi color stops:linear-gradient((to right, red,orange,yellow,green,blue,indigo,violet);); <b>l to R</b></p>
+    </div>
+
+
+    <div id="gradT">
+        <p> Transparacy</p>
+        <p>   linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); <b>180 degree</b></p>
+    </div>
+
+    <div id="gradRepeat">
+        <p>Repeating line grad</p>
+        <p>  background-image: repeating-linear-gradient(red, yellow 10%, green 20%);<b>Repeating gradient pattern</b></p>
+    </div>
+
+</body>
+</html>
