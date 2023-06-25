@@ -1,0 +1,24 @@
+#word-wrap{
+    border: 1px solid;
+    word-wrap: break-word;
+    width: 150px;
+}
+
+#break-all{
+    border: 1px solid #000000;
+    word-break: break-all;
+    width: 230px;
+}
+#keep-all{
+    border: 1px solid #000000;
+    word-break: keep-all;
+    width: 230px;
+}
+
+#writing-mode{
+    writing-mode: horizontal-tb;
+}
+
+#vertical{
+    writing-mode: vertical-rl;
+}
