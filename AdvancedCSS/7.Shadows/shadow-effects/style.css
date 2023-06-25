@@ -1,0 +1,35 @@
+h1{
+    text-shadow: 2px 2px ;
+}
+
+#main{
+    font-size:xx-large;
+    text-shadow: 2px 2px red;
+}
+
+h2{
+    text-shadow: 2px 2px 5px red;
+}
+
+h3{
+    font-size: xx-large;
+    color:white ;
+    text-shadow: 2px 2px 3px black;
+}
+
+h4{
+    font-size: xx-large;
+    text-shadow: 0 0 3px rgba(16, 231, 45, 0.952), 0 0 5px rgb(37, 238, 245);
+}
+
+#threecolor {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(223, 13, 13), 0 0 25px blue, 0 0 5px darkblue;
+  }
+
+
+#bordershadow{
+    color: coral;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
