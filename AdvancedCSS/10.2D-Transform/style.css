@@ -1,0 +1,52 @@
+#translate{
+    width: 300px;
+    height: 100px;
+    background-color: green;
+    border: 1px dashed black;
+    transform: translate(50px,100px);
+  
+}
+
+div#rotate{
+    width: 300px;
+     height: 100px;
+     background-color: yellow;
+     border: 1px solid black;
+    margin-top: 100px;
+    transform: rotate(20deg);
+}
+
+
+div#scale{
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color:salmon;
+    border: 1px solid black;
+    transform: scale(2,3);
+    overflow: auto  ;
+}
+
+div#skew{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: skew(20deg,20deg);
+}
+
+div#matrix1 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  
+  div#matrix2 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+  }

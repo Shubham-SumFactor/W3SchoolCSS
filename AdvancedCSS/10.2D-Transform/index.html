@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2-D Transforms</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <h1> 2D Transformation: CSS transforms allow you to move, rotate, scale, and skew elements. </h1>
+
+    <div id="translate">
+        translate(50px,100px); move 50 pixels to the right, and 100 pixels down from its current position.
+    </div>
+
+    <div id="rotate">
+        rotate(20deg);element is rotated clockwise 20 degrees. use -20 for counter clockwise
+    </div>
+
+    <div id="scale">
+        transform: scale(2,3);2X width, and 3X original height. if scale(0.5,0.5); half the size
+        transform: scaleY(3); => 3X original height
+        transform: scaleX(3); => 3X original width
+    
+    </div>
+
+    <div id="skew">
+        This div element is skewed 20 degrees along the X-axis. and 20 deg y-axis
+    </div>
+    <br>
+
+    <div class="matrix">
+        <p></p>
+        <div id="matrix1">
+            matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+            </div>
+            
+            <div id="matrix2">
+                matrix(scaleX(), skewY(), skewX(), scaleY(), translateX(), translateY())
+            </div>
+    </div>
+</body>
+</html>
