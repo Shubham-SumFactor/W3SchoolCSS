@@ -1,0 +1,33 @@
+.mask1 {
+    -webkit-mask-image: url(../../w3schools-logo-icon.png);
+    mask-image: url(../../w3schools-logo-icon.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+  }
+
+.mask2 {
+    -webkit-mask-image: url(../../w3schools-logo-icon.png);
+    mask-image: url(../../w3schools-logo-icon.png);
+    /* -webkit-mask-repeat: no-repeat; */
+    /* mask-repeat: no-repeat;     */
+  }
+
+p {
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+  }
+.linear-gradient {
+    max-width: 600px;
+    height: 350px;
+    overflow-y: scroll;
+    background: url(../../HP.webp) no-repeat;
+    -webkit-mask-image: linear-gradient(black, transparent);
+    mask-image: linear-gradient (black, transparent);
+    /* float: right ; */
+  }
+
+.radial-gradient{
+    -webkit-mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+    mask-image: radial-gradient(ellipse, black 50%, rgba(0, 0, 0, 0.5) 50%);
+}  
