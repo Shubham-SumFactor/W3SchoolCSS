@@ -1,0 +1,33 @@
+.img1 {
+    width: 400px;
+    height: 300px;
+}
+
+.img2 {
+    width: 200px;
+    height: 300px;
+}
+
+.cover {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contain {
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.fill {
+    width: 250px;
+    height: 300px;
+    object-fit: fill;
+}
+
+.scale {
+    width: 250px;
+    height: 300px;
+    object-fit: scale-down;
+}
