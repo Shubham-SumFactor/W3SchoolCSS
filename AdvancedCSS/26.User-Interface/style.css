@@ -1,0 +1,29 @@
+div.horizontal {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: horizontal;
+    overflow: auto;
+  }
+
+div.vertical {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: vertical;
+    overflow: auto;
+    outline: 4px solid red;
+    outline-offset: 15px;
+  }  
+
+div.both {
+    border: 2px solid;
+    padding: 20px; 
+    width: 300px;
+    resize: both;
+    overflow: auto;
+  }  
+
+textarea#test {
+    resize: none;
+ }
